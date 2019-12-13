@@ -1,0 +1,20 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/August/Desktop/compile/miniplc0/miniplc0-compiler/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW64/bin/mingw32-make.exe" "cmTC_0ebd7/fast"
+C:/MinGW64/bin/mingw32-make.exe -f CMakeFiles\cmTC_0ebd7.dir\build.make CMakeFiles/cmTC_0ebd7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/August/Desktop/compile/miniplc0/miniplc0-compiler/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ebd7.dir/testCCompiler.c.obj
+C:\MinGW64\bin\gcc.exe    -o CMakeFiles\cmTC_0ebd7.dir\testCCompiler.c.obj   -c C:\Users\August\Desktop\compile\miniplc0\miniplc0-compiler\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_0ebd7.exe
+"D:\software\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0ebd7.dir\link.txt --verbose=1
+"D:\software\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0ebd7.dir/objects.a
+C:\MinGW64\bin\ar.exe cr CMakeFiles\cmTC_0ebd7.dir/objects.a @CMakeFiles\cmTC_0ebd7.dir\objects1.rsp
+C:\MinGW64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_0ebd7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0ebd7.exe -Wl,--out-implib,libcmTC_0ebd7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0ebd7.dir\linklibs.rsp
+C:/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find @C:\WINDOWS\Temp\ccG2EKhi: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0ebd7.dir\build.make:88: cmTC_0ebd7.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/August/Desktop/compile/miniplc0/miniplc0-compiler/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_0ebd7/fast] Error 2
+
+
